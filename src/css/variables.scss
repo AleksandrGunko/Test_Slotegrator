@@ -1,0 +1,57 @@
+$site-color: #60b8b7;
+
+$grey: #b0b3be;
+$red: #e7535e;
+$redHvr: #e04f5a;
+$lightGrey: #eff0f2;
+$lightGreyText:#c1c3cc;
+$green:#8fd442;
+$white: #fff;
+$inputTextColor: #272b3c;
+$greenHvr: #99de4d;
+$textColor: #272b3c;
+$backgroundColorDMW: #fbfbfb;
+$fontColorDMW: #333;
+$emphasizeBackgroundColorDMW: #e0eeec;
+
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+
+
+
+
+$mediumDesktopMode: "screen and (max-width: 1440px)";
+$smallDesktopMode: "screen and (max-width: 1280px)";
+$tableMode: "screen and (max-width: 1080px)";
+$tableModeIpad: "screen and (min-width: 768px) and (max-width: 1080px)";
+$mobileMode: "screen and (max-width: 740px)";
+$xsMobileMode: "screen and (max-width: 420px)";
+$iPhone5: "only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)";
+$iPhone6: "only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)";
+$iPhone6plus: "only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)";
+$iPad: "only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1160px)
+  and (-webkit-min-device-pixel-ratio: 1)";
+$iPadAir: "only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)";

@@ -1,0 +1,36 @@
+@media #{$tableMode} {
+	.breadcrumb {
+	    margin-bottom: 10px;
+	}
+	.pagination-block:after {
+	    margin-top: 20px;
+	}
+	
+}
+
+
+@media #{$mobileMode} {
+	.pagination-block:after {
+	    margin-top: 0px;
+	}
+	.price-list {
+	    margin-top: 50px;
+	}
+	.text-block {
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    text-align: justify;
+		height: auto;
+		margin-bottom: 10px;
+		
+		.left-block {
+			width: auto!important;
+		}
+		.right-block {
+			width: auto!important;
+			padding-left: 0;
+		}
+	}
+}
+
+

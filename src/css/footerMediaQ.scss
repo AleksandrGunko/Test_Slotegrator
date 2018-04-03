@@ -1,0 +1,28 @@
+@media #{$tableMode} {
+	.logo-company {
+		img {
+			vertical-align: top;
+		}
+	}
+}
+
+@media #{$mobileMode} {
+	.logo-company {
+		margin-top: 10px;
+		text-align: center;
+		float: none;
+
+		img {
+			vertical-align: top;
+			display: inline-block;
+		}
+
+		p {
+			vertical-align: top;
+			width: auto;
+
+		}
+	}
+}
+
+

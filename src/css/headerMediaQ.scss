@@ -1,0 +1,39 @@
+@media #{$tableMode} {
+
+}
+
+@media #{$mobileMode} {
+	.header {
+	    height: 230px;
+	    padding-top: 20px;
+	}
+	.header-block {
+		text-align: center;
+	}
+	.logo {
+	    float: none;
+	}
+	.pull-right {
+	    float: none!important;
+	}
+	.contact {
+	    margin-top: 10px;
+	    p {
+	    	font-size: 25px;
+	    }
+	}
+	.contact span {
+	    float: none;
+	}
+	.form-container {
+		h2{
+			font-size: 25px;
+		}
+	}
+	.modal-sm {
+	    width: 300px;
+	}
+	.form-container {
+	    padding: 3% 3%;
+	}
+}

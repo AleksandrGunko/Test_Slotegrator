@@ -1,0 +1,45 @@
+@media #{$tableMode} {
+	.menu {
+	height: auto;
+	background: #777;
+	line-height: 25px;
+}
+	.navbar-nav li {
+	    font-size: 20px;
+	    color: #8a8a8a;
+	    a {
+	    	border-right: none;
+	    }
+	}
+	.navbar-collapse {
+    margin-top: 11px;
+    box-shadow: none;
+}
+	.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #60b8b7;
+}
+.navbar-toggle .icon-bar {
+    background-color: #60b8b7;
+}
+.navbar-collapse.in {
+    overflow-y: auto;
+}
+.collapse.in {
+    display: block;
+}
+
+}
+
+@media #{$mobileMode} {
+
+}
